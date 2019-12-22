@@ -3,8 +3,9 @@ import {
   parse
 } from '../action/SamilJuboParserAction';
 
-test('parseSamilJubo', t => {
-  // parse();
-  t.pass();
-});
+test('parseSamilJubo', async t => {
+  await parse().then(result => {
+    t.not(result, null);
+  });
+})
 

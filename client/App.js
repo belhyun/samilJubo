@@ -12,6 +12,7 @@ import routes from './routes';
 
 // Base stylesheet
 require('./main.css');
+require('react-awesome-slider/dist/styles.css')
 
 export default function App(props) {
   return (

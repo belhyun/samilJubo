@@ -87,7 +87,6 @@ const renderFullPage = (html, initialState) => {
         ${head.base.toString()}
         ${head.title.toString()}
         ${head.meta.toString()}
-        ${head.link.toString()}
         ${head.script.toString()}
 
         ${isProdMode ? `<link rel='stylesheet' href='${assetsManifest['/app.css']}' />` : ''}
